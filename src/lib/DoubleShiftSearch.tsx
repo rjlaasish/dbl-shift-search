@@ -88,22 +88,31 @@ function DoubleShiftSearch({
   return (
     <div
       id="dbl-shift-search-wrapper"
+      data-testid="test-dbl-shift-search-wrapper"
       className={`${isActive ? "container-active" : ""} double-shift-wrapper`}
     >
-      {leftHelperTextPosition && <span aria-hidden="false">{helperText}</span>}
+      {leftHelperTextPosition && (
+        <span aria-hidden="false" aria-label="left-search-input-label">
+          {helperText}
+        </span>
+      )}
       <input
+        id="dbl-shift-search-input"
+        data-testid="test-dbl-shift-search-input"
         ref={inputRef}
         type="search"
         aria-label="double-shift-search-input"
         style={inputStylingProps}
-        className={isActive ? "active" : ""}
+        className={isActive ? "active" : "lololol"}
         placeholder={isActive ? placeholder : ""}
         onChange={onChange}
         onBlur={handleDropdownBlur}
         {...rest}
       />
       {rightHelperTextPosition && (
-        <span aria-hidden="false"> {helperText} </span>
+        <span aria-hidden="false" aria-label="right-search-input-label">
+          {helperText}
+        </span>
       )}
     </div>
   );

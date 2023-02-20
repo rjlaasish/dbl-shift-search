@@ -1,7 +1,7 @@
 {
   "name": "double-shift-search",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -21,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "publish": "rm -rf dist && mkdir dist && babel src/lib/DoubleShiftSearch.js -d dist --copy-files",
+    "publish": "mkdir dist && babel src/lib/DoubleShiftSearch.js -d dist --copy-files",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public"
   },
@@ -62,6 +62,10 @@
     "name": "Aasish Rijal",
     "email": "rjlaasish@gmail.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rjlaasish/dbl-shift-search"
+  },
   "devDependencies": {
     "@babel/cli": "^7.20.7",
     "@babel/core": "^7.20.12",
@@ -79,7 +83,5 @@
     
     "prop-types": "^15.8.1",
     "webpack": "^5.75.0"
-  },
-  "readme": "ERROR: No README data found!",
-  "_id": "double-shift-search@0.1.0"
+  }
 }

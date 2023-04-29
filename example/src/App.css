@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.app{
+  position: relative;
+  width: 80%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  background-color: #efefef7a;
+  border: 2px solid #efefef;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+}
+
+.app span{
+ display: flex;
+ margin-bottom: 25px;
+}
+
+.shft-key{
+  width: 90px;
+  line-height: 40px; 
+  font-size:13px;
+  background-color:#333;
+  color: #eee;
+  text-align: left;
+  padding-left: 8px;
+  line-height: 29px;
+  border-radius:2px;
+  float:left; margin-left: 2px;
+  margin-bottom:2px;
+  cursor: pointer;
+  transition: box-shadow 0.7s ease;
+}
+
+.app h6{
+  padding: 0;
+  margin: 10px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.app h6 a{
+  color: black;
+}
+
+.app .value-container{
+  margin-top: 10px;
+}

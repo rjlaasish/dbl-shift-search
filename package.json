@@ -1,0 +1,29 @@
+{
+  "name": "dbl-shift-search",
+  "version": "1.0.0",
+  "description": "Double shift search react component",
+  "author": "rjlaasish",
+  "license": "MIT",
+  "repository": "rjlaasish/dbl-shift-search",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "types": "./lib/esm/index.d.ts",
+  "scripts": {
+    "build": "yarn build:esm && yarn build:cjs",
+    "build:esm": "tsc && copyfiles -u 1 src/**/*.{css,svg} lib/esm",
+    "build:cjs": "tsc --module commonjs --outDir lib/cjs && copyfiles -u 1 src/**/*.{css,svg} lib/cjs"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "copyfiles": "^2.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "typescript": "^5.0.4"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  }
+}

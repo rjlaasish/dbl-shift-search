@@ -36,15 +36,15 @@ export default App;
 ## Props
 Name              | Type                                | Default
 ------------------|-------------------------------------|:-------:
-**value**         |`string`                 |`""` 
+**value?**         |`string`                 |`""` 
 **onChange?**           |`function`               |none
 **onBlur?**           |`function`               |none
 **placeholder?**          |`string`               | "Search"
 **helperText?**     |`string`               | "Press Double Shift Key To Search Menu"
-**closeOnESCPress**         |`boolean`                           | true
-**isInputActive**        |`boolean`                           | false
-**textPosition**     |`"left" or "right"`                             | "right"
-**inputStylingProps**      |`React.CSSProperties`                            | none
+**closeOnESCPress?**         |`boolean`                           | true
+**isInputActive?**        |`boolean`                           | false
+**textPosition?**     |`"left" or "right"`                             | "right"
+**inputStylingProps?**      |`React.CSSProperties`                            | none
 
 ## About Author
 

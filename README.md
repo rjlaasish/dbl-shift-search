@@ -50,14 +50,13 @@ Name              | Type                                | Default
 
 <a href="https://github.com/rjlaasish"><img src="https://avatars.githubusercontent.com/u/51090337?v=4" title="rjlaasish" width="60" borderRadius="50" height="60"></a>
 
-Aasish Rijal
-rjlaasish@gmail.com
+Aasish Rijal <br/>
+rjlaasish@gmail.com <br/>
 [Linkedin](https://www.linkedin.com/in/aasish-rijal-a25301189/)
 
 
 ## Support This Package
-
-<a href="https://www.buymeacoffee.com/rjlaasish"><img src="https://www.buymeacoffee.com/assets/img/bmc-meta-new/apple-icon-120x120.png" title="Aasish Rijal" width="80" height="80"></a>
+ [:coffee: Get me a coffee](https://www.buymeacoffee.com/rjlaasish) 
 
 ## License
 

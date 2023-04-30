@@ -1,6 +1,6 @@
 # dbl-shift-search
 
-[![npm version](https://badge.fury.io/js/dbl-shift-search.svg)](https://badge.fury.io/js/dbl-shift-search)  [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![npm version](https://badge.fury.io/js/dbl-shift-search.svg)](https://badge.fury.io/js/dbl-shift-search)  [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)  ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
 
 
@@ -43,9 +43,22 @@ Name              | Type                                | Default
 **helperText?**     |`string`               | "Press Double Shift Key To Search Menu"
 **closeOnESCPress**         |`boolean`                           | true
 **isInputActive**        |`boolean`                           | false
-**textPosition**     |`"left" | "right"`                             | "right"
+**textPosition**     |`"left" or "right"`                             | "right"
 **inputStylingProps**      |`React.CSSProperties`                            | none
+
+## About Author
+
+<a href="https://github.com/rjlaasish"><img src="https://avatars.githubusercontent.com/u/51090337?v=4" title="rjlaasish" width="60" borderRadius="50" height="60"></a>
+
+Aasish Rijal
+rjlaasish@gmail.com
+[Linkedin](https://www.linkedin.com/in/aasish-rijal-a25301189/)
+
+
+## Support This Package
+
+<a href="https://www.buymeacoffee.com/rjlaasish"><img src="https://www.buymeacoffee.com/assets/img/bmc-meta-new/apple-icon-120x120.png" title="Aasish Rijal" width="80" height="80"></a>
 
 ## License
 
-[MIT](http://isekivacenz.mit-license.org/)
+[MIT](http://isekivacenz.mit-license.org/)  © [rjlaasish](https://github.com/rjlaasish)

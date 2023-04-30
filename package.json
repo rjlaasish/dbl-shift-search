@@ -1,6 +1,6 @@
 {
   "name": "dbl-shift-search",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Double shift search react component",
   "author": "rjlaasish",
   "license": "MIT",
@@ -8,7 +8,6 @@
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
   "types": "./lib/esm/index.d.ts",
-
   "keywords": [
     "react",
     "component",
